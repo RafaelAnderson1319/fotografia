@@ -35,7 +35,7 @@ nav a[aria-current="page"] { color: var(--ink); }
 .hero-photo-right { right: 0; top: 7%; width: 27%; height: 45%; }
 .hero-camera-scene { overflow: hidden; }
 .hero-camera-scene img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.hero-camera-layer { z-index: 1; animation: camera-float 4.8s ease-in-out infinite; will-change: transform; }
+.hero-camera-scene .hero-camera-layer { inset: 16% auto auto 8%; z-index: 1; width: 84%; height: auto; object-fit: contain; animation: camera-float 4.8s ease-in-out infinite; will-change: transform; }
 .hero-title { position: absolute; z-index: 3; margin: 0; color: var(--accent); font-family: Syncopate, sans-serif; font-size: clamp(2.4rem, 7.1vw, 7.2rem); font-weight: 700; line-height: .82; letter-spacing: -.065em; white-space: nowrap; }
 .hero-title-top { top: -5%; left: -1%; }
 .outline { color: transparent; -webkit-text-stroke: 2px var(--accent); }
