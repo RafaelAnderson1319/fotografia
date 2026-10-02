@@ -162,7 +162,10 @@ export default function App() {
             FOTÓ<span className="outline">GRAFO</span>
           </h1>
           <img className="hero-photo hero-photo-left" src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=85" alt="Câmera organizada sobre uma superfície de trabalho" />
-          <img className="hero-photo hero-photo-center" src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1200&q=85" alt="Fotógrafa segurando uma câmera" />
+          <div className="hero-photo hero-photo-center hero-camera-scene" role="img" aria-label="Fotógrafo lançando uma câmera sobre a mão">
+            <img className="hero-camera-background" src="/hero-camera-background.png" alt="" />
+            <img className="hero-camera-layer" src="/hero-camera-layer.png" alt="" />
+          </div>
           <img className="hero-photo hero-photo-right" src="https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=900&q=85" alt="Mãos segurando fotografias instantâneas" />
           <div className="hero-title hero-title-bottom" aria-label="Capturando movimentos">
             <span>CAPTURANDO</span>
